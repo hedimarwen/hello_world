@@ -3,12 +3,12 @@ node {
             checkout scm
         }
         stage('Build') {
-            mvn install
+            bat mvn install
         }
         stage('Test') {
-            mvn test
+            bat mvn test
         }
         stage('Deploy') {
-            mvn deploy
+            bat mvn deploy
         }
      }
