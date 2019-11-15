@@ -15,8 +15,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus-releases</id>
-			<name>releases</name>
+			<id>example-repo</id>
+			<name>example-repo</name>
 			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
