@@ -14,11 +14,11 @@
 	
 
 	<distributionManagement>
-		<repository>
+		<snapshotRepository>
 			<id>example-repo</id>
 			<name>example-repo</name>
 			<url>http://localhost:8081/nexus/content/repositories/example-repo/</url>
-		</repository>
+		</snapshotRepository>
 	</distributionManagement>
 
 
