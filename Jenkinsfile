@@ -3,18 +3,12 @@ node {
             checkout scm
         }
         stage('Build') {
-            withMaven(maven:'maven'){
-                    bat 'mvn install';
-                }
+            bat 'mvn install';
         }
         stage('Test') {
-            withMaven(maven:'maven'){
-                    bat 'mvn test';
-                }
+            bat 'mvn test';
         }
         stage('Deploy') {
-            withMaven(maven:'maven'){
-                    bat 'mvn deploy';
-                }
+            bat 'mvn deploy';
         }
      }
